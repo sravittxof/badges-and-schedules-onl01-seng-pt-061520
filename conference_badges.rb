@@ -22,8 +22,6 @@ def printer(array_to_iterate_over)
   array_to_iterate_over.each { |element| puts element }
 end
 
-printer(batch_badge_creator)
-printer(assign_rooms)
 
 
 
