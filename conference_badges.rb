@@ -18,11 +18,12 @@ def assign_rooms(array_of_names)
 end
 
 
-def printer(batch_badge_creator, assign_rooms)
-  batch_badge_creator.each { |badge| puts badge }
-  assign_rooms.each { |room_assignment| puts room_assignment }
+def printer(array_to_iterate_over)
+  array_to_iterate_over.each { |element| puts element }
 end
 
+printer(batch_badge_creator)
+printer(assign_rooms)
 
 
 
