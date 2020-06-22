@@ -18,11 +18,11 @@ def assign_rooms(array_of_names)
 end
 
 
-
-
-def printer(array_to_iterate_over)
-  array_to_iterate_over.each { |element| puts element }
+def printer(array_of_names)
+  batch_badge_creator(array_of_names).each { |element| puts element }
+  assign_rooms(array_of_names).each { |element| puts element }
 end
+
 
 
 
