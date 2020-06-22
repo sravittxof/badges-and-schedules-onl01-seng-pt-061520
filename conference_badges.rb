@@ -17,14 +17,6 @@ def assign_rooms(array_of_names)
   return room_assignments
 end
 
-def printer(print_badges, print_room_assignments)
-  print_badges.each { |badge| puts badge }
-  print_room_assignments { |room_assignment| puts room_assignment }
-end
-
-printer(batch_badge_creator, assign_rooms)
-
-
 
 
 
